@@ -1,0 +1,16 @@
+<h2>Url tags</h2>
+<% @url.each do |url| %>
+  <p>
+    <strong>url:</strong>
+    <%= url.url %>
+  </p>
+  <p>
+    <strong>url_name:</strong>
+    <%= url.tag_name %>
+  </p>
+  <p>
+    <strong>url_content:</strong>
+    <%= url.tag_content %>
+  </p>
+<% end %>
+
